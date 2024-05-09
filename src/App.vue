@@ -1,7 +1,3 @@
-<template>
-  <AppHeader />
-  <CardsList />
-</template>
 
 <script>
 import AppHeader from './components/AppHeader.vue'
@@ -14,6 +10,11 @@ export default {
   },
 }
 </script>
+
+<template>
+  <AppHeader />
+  <CardsList />
+</template>
 
 <style>
 </style>
